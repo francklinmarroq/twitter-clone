@@ -10,7 +10,11 @@
               <SidebarLeft />
             </div>
           </div>
+
           <!-- Main content -->
+          <main class="col-span-12 md:col-span-8 xl:col-span-6 ">
+            <RouterView />
+          </main>
 
           <!-- Right sidebar -->
           <div class="md:block xl:col-span-4 md:col-span-3">
@@ -18,7 +22,6 @@
               <SidebarRight />
             </div>
           </div>
-
         </div>
       </div>
     </div>
